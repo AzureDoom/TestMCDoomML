@@ -1,0 +1,49 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+issueTrackerURL="https://github.com/AzureDoom/MCDoom/issues"
+license="CC-BY-NC-4.0"
+[[mods]]
+modId="doom"
+version="${mod_version}"
+displayName="MCDoom"
+displayURL="https://modrinth.com/mod/mcdoom"
+logoFile="icon.png"
+credits="AzureDoom"
+authors="AzureDoom"
+description='''Rip and Tear! Until It is Crafted'''
+[[dependencies.doom]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.1,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.doom]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1, 1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.doom]]
+    modId="azurelib"
+    mandatory=true
+    versionRange="[2.0.3,)"
+    ordering="BEFORE"
+    side="BOTH"
+[[dependencies.doom]]
+    modId="curios"
+    mandatory=true 
+    versionRange="[5.2.0-beta.1+1.20,)" 
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.doom]]
+    modId="smartbrainlib"
+    mandatory=true 
+    versionRange="[1.12,)" 
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.doom]]
+    modId="cpapireforged"
+    mandatory=true
+    versionRange="[1.0.2,)"
+    ordering="NONE"
+    side="BOTH"
